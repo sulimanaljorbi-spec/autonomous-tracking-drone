@@ -15,7 +15,7 @@ person detection, visual tracking, GPS waypoint navigation, RTH, geofencing, and
 │   └── vision_additions.c  # Experiment 2 protocol additions reference
 │
 ├── jetson/                 # NVIDIA Jetson Orin Nano Python code
-│   ├── jetson_exp3.py      # Dual-mode: upload mission / fly with vision
+│   ├── jetson_GPS_Simulation.py      # Dual-mode: upload mission / fly with vision
 │   ├── vision_tracker.py   # Vision tracker with centroid tracker
 │   └── ground_station.py   # Pre-flight ground station (telemetry display)
 │
