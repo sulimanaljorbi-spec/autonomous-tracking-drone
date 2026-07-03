@@ -1,0 +1,42 @@
+# STM32 build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+Debug/
+Release/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+*.egg-info/
+
+# YOLOv8 model files (large — download separately)
+*.pt
+*.engine
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.csv
+
+# Generated
+slide-*.jpg
+*.pdf
