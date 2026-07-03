@@ -1,0 +1,15 @@
+# Jetson Orin Nano Python dependencies
+# Install with: pip3 install -r requirements.txt
+
+# Vision and detection
+ultralytics>=8.0.0       # YOLOv8
+opencv-python>=4.8.0     # cv2 (use system opencv on Jetson for GStreamer support)
+
+# Communication
+pyserial>=3.5            # UART serial to STM32
+
+# Simulation and testing (runs on any machine)
+numpy>=1.24.0            # Array operations
+
+# Networking (for SIYI gimbal Ethernet SDK)
+# socket is built-in — no install needed
