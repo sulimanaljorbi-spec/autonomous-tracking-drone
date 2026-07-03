@@ -1,0 +1,28 @@
+{
+  "waypoints": [
+    {
+      "lat": 24.713600,
+      "lon": 46.675300,
+      "alt": 10,
+      "speed": 3.0,
+      "action": "hover",
+      "hover_time": 5
+    },
+    {
+      "lat": 24.714000,
+      "lon": 46.676000,
+      "alt": 15,
+      "speed": 5.0,
+      "action": "flythrough",
+      "hover_time": 0
+    },
+    {
+      "lat": 24.713600,
+      "lon": 46.675300,
+      "alt": 5,
+      "speed": 2.0,
+      "action": "land",
+      "hover_time": 0
+    }
+  ]
+}
